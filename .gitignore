@@ -1,0 +1,145 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# .NET
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.cache
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio
+.vs/
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# User-specific files
+*.rsuser
+*.userprefs
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+nunit-*.xml
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Chutzpah Test files
+_chutzpah*
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/*.hhc
+DocProject/Help/*.hhk
+DocProject/Help/*.hhp
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# NuGet package restore
+*.nuget.props
+*.nuget.targets
+
+# Local application settings
+appsettings.local.json
+appsettings.Development.json
+appsettings.*.local.json
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# Entity Framework
+*.edmx.diagram
+
+# BenchmarkDotNet
+BenchmarkDotNet.Artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Secrets
+secrets.json
+*.pfx
+*.key
+*.pem
+
+# Local development
+launchSettings.json
+
+# Azure
+.azure/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Database
+*.mdf
+*.ldf
+*.ndf
+
+# Generated files
+Generated/
+*.generated.cs

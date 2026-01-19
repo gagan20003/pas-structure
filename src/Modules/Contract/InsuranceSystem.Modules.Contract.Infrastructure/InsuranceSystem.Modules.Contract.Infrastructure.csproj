@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>13</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.60" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\SharedKernel\InsuranceSystem.SharedKernel\InsuranceSystem.SharedKernel.csproj" />
+    <ProjectReference Include="..\InsuranceSystem.Modules.Contract.Domain\InsuranceSystem.Modules.Contract.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
